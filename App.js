@@ -1,4 +1,7 @@
+//Import React Native Gesture Handler
+
 import * as React from "react";
+
 // Import 'NativeBaseProvider' component
 import { NativeBaseProvider, extendTheme } from "native-base";
 
