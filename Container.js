@@ -51,7 +51,7 @@ function MyTab() {
           return <Ionicons name={iconName} size={size} color={color} />
         },
         tabBarActiveTintColor: theme.colors.primary["800"],
-        tabBarInactiveTintColor: "red"
+        tabBarInactiveTintColor: "gray"
       })}
     >
       <Tab.Screen name="Hello" component={Hello} options={{ headerShown: false }} />
